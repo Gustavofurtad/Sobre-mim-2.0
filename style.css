@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+body{
+    background-image: url(../imagens/fundo-3d.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);*/
+    width: 370px;
+    border: 1px solid #e126d9;
+    background-color: rgba(0, 0, 0, 0.800);
+}
+header{
+    padding: 10px;
+    text-align: center;
+}
+img#foto{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 3px solid #F99F49;
+}
+h1{
+    font-weight: normal;
+    color: white;
+    font-size: 2.2em;
+}
+h2{
+    font-weight: normal;
+    color: white;
+    font-size: 1em;
+}
+h3{
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+}
+p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+img.gif{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+li.aba{
+background-color: #262626;
+width: 50%;
+display: flex;
+justify-content: center;
+cursor: pointer;
+transition: background-color 0.2s ease-in-out;
+    
+}
+li.aba:hover{
+    background-color: #414141;
+}
+li.selecionado{
+    background-color: rgba(0, 0, 0, 0.719);
+}
+article.informacoes .informacao{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+
+div#informacao-sobre-mim{
+    max-height: 180px;
+    overflow-y: auto;
+}
+div.informacao.selecionado{
+    display: block;
+}
+span{
+    color: green;
+}
+ul.rds{
+    display: flex;
+    flex-direction: column;
+}
+li.rs{
+    margin: auto    ;
+    padding: 10px;
+    font-size: 1.3em;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:#B63BB8;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+}
+li.rs:hover{
+    opacity: 0.8;
+}
+
+#curr{
+    background-color: #06c185;
+}
+#linkedin{
+    background-color: #1d87bd;
+}
+#git{
+    background-color: #545454;
+}
+#pjt0{
+    background-color: #2100C2;
+}
+#pjt1{
+    background-color: #F5BC00;
+}
+#pjt2{
+    background-color: #F45175;
+
+}
